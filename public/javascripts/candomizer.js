@@ -17,7 +17,7 @@ var candomizer = {
           randomValue = Math.floor(Math.random() * 256),
           randomLocations = [];
 
-      while (randomLocations.length < 2000) {
+      while (randomLocations.length < 8000) {
         randomLocations.push(Math.floor(Math.random() * length));
       }
 
