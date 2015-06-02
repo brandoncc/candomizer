@@ -2,4 +2,25 @@ extends layout
 
 block content
   h1= title
-  canvas(width="800", height="600")
+  aside
+    form#dimensions(action="")
+      label(for="width") Width
+      input#width(type="number", value="800")
+      label(for="height") Height
+      input#height(type="number", value="600")
+      button(type="submit") Apply
+
+    form#settings(action="")
+      label(for="frames") Frames per second (1-60)
+      input#frames(type="number", value="12", min="1", max="60")
+      label(for="alterations") Altered pixels per frame
+      input#alterations(type="number", value="8000", min="1")
+      button(type="submit") Apply
+
+    form#controls(action="")
+      button#start Start
+      button#stop(disabled) Stop
+      br
+      button#clear Clear
+  main
+    canvas(width="800", height="600")
