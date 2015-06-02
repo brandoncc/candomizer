@@ -1,0 +1,24 @@
+{
+  "name": "Candomizer",
+  "version": "1.0.0",
+  "description": "An app which uses html5 canvas to randomly distort an image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/brandoncc/candomizer"
+  },
+  "keywords": [
+    "html5",
+    "canvas",
+    "node"
+  ],
+  "author": "Brandon Conway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandoncc/candomizer/issues"
+  },
+  "homepage": "https://github.com/brandoncc/candomizer"
+}
